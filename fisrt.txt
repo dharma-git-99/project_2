@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini App</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; }
+    button { 
+      padding: 10px 20px; 
+      background: #4CAF50; 
+      color: white; 
+      border: none; 
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Mini App</h1>
+  <p id="counter">Count: 0</p>
+  <button onclick="countUp()">Click Me!</button>
+
+  <script>
+    let count = 0;
+    function countUp() {
+      count++;
+      document.getElementById('counter').innerText = `Count: ${count}`;
+    }
+  </script>
+</body>
+</html>
