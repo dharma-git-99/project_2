@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <h1>My Mini App</h1>
+  <h1>My project-2</h1>
   <p id="counter">Count: 0</p>
   <button onclick="countUp()">Click Me!</button>
 
